@@ -14,9 +14,7 @@ const Login = () => {
 
   const handleLoginSubmit = (event) => {
     event.preventDefault();
-    // Do something with the email and password, such as sending them to a server to authenticate the user.
-    // For the sake of example, let's assume the server returns a success message for a valid user.
-    const isAuthenticated = true; // Change this to false for testing the failure case
+    const isAuthenticated = true; 
     if (isAuthenticated) {
       alert('Successfully logged in!');
     } else {
