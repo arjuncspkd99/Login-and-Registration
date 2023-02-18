@@ -15,6 +15,7 @@ const Registration = () => {
   const handleRegistrationSubmit = (event) => {
     event.preventDefault();
     // Do something with the email and password, such as sending them to a server to create a new user account.
+    alert("Successfully registered");
   };
 
   return (
